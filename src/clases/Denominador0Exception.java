@@ -10,6 +10,9 @@ package clases;
  *
  * @author dmunoz10
  */
-public class Denominador0Exception {
+public class Denominador0Exception extends Exception{
+    public Denominador0Exception(){
+        super("No se permite denominador cero");
+    }
     
 }
